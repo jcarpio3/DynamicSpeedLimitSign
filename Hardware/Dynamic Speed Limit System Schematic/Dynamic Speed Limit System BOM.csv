@@ -1,0 +1,34 @@
+Source:,E:\School Stuffs\Capstone\CMPE2965-A01-Group-1-John-Russel-John-Luis\Hardware\Dynamic Speed Limit System Schematic\Dynamic Speed Limit System Schematic.kicad_sch,,,,,,,,
+Date:,4/26/2024 20:27:56,,,,,,,,
+Tool:,Eeschema 7.0.9,,,,,,,,
+Generator:,C:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py,,,,,,,,
+Component Count:,44,,,,,,,,
+Manufacturer Part Number,Ref,Qnty,Value,Cmp name,Footprint,Description,Cost,Extended,Links
+PX1604,BT1,1,9V Battery,Battery,,9V Alkaline Battery,$4.49,$4.49,~
+C350C334J1G5TA,C1,1,330nF,C_Small,,"Unpolarized capacitor, small symbol",$4.24,$4.24,~
+K104K20X7RK53H5G,C2,1,100nF,C_Small,,"Unpolarized capacitor, small symbol",$1.14,$1.14,~
+C320C104K5R5TA,C3,1,0.1uF,C_Small,,"Unpolarized capacitor, small symbol",$0.32,$0.32,~
+C323C333KAG5TA,C4,1,33nF,C_Small,,"Unpolarized capacitor, small symbol",$1.53,$1.53,~
+C330C563JAG5TA,C5,1,56nf,C_Small,,"Unpolarized capacitor, small symbol",$2.51,$2.51,~
+C315C180J1G5TA,C6,1,18pF,C_Small,,"Unpolarized capacitor, small symbol",$0.62,$0.62,~
+0217.500MXEP,F1,1,Fuse,Fuse,,Fuse,$1.69,$1.69,~
+CF12JT47K0,"R1, R2, R3, R4, R5, R6",6,47K,R,,Resistor,$0.15,$0.90,~
+CF12JT1K0,R7,1,1k,R_US,,"Resistor, US symbol",$0.15,$0.15,~
+CF12JT39K0,R8,1,39k,R_US,,"Resistor, US symbol",$0.15,$0.15,~
+CF12JT68K0,R9,1,68k,R_US,,"Resistor, US symbol",$0.15,$0.15,~
+CF12JT22K0,R10,1,22k,R_US,,"Resistor, US symbol",$0.15,$0.15,~
+CF14JT18K0,R11,1,18k,R_US,,"Resistor, US symbol",$0.15,$0.15,~
+CF14JT120K,R12,1,120k,R_US,,"Resistor, US symbol",$0.15,$0.15,~
+TMS6T5B2M2RE,SW1,1,SW_SPST,SW_SPST,,Single Pole Single Throw (SPST) switch,$11.28,$11.28,~
+MAX7219CNG+,"U1, U2, U3, U4, U5, U6",6,MAX7219,MAX7219,,IC DRVR 7 SEGMENT 8 DIGIT 24DIP,$2.49,$24.90,https://a.co/d/3n5QXqj
+CSM-88261SG,"U7, U8, U9, U10, U11, U12",6,~,8x8_Matrix_Display__1,, 2.3 Inch 8X8 Dot-Matrix Display,Unknown,Unknown,~
+BME280,U13,1,BME280,BME280,Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering,"3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8",$18.95,$18.95,https://a.co/d/3GeB9Ur
+RASPBERRY PI PICO W,U14,1,Pico,Pico,RPi_Pico:RPi_Pico_SMD_TH,,$19.20,$19.20,https://a.co/d/h3JVE8x
+MCP6241-E/P,"U17, U18",2,MCP6241-E/P,MCP6L01Rx-xOT,Package_TO_SOT_SMD:SOT-23-5,"Single, 1 MHz, 85µA, Rail-to-Rail input and output, SOT-23-5",$0.66,$1.32,~
+L7805CV,U21,1,LM7805CV,L7805CV,,"Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252",$0.90,$0.90,https://a.co/d/iiEfEkZ
+N/A,U16,1,MAX9814,MAX9814 ,,Microphone Amplifier Sensor Module AGC Amplifier Board Auto Gain Control VGA Low Noise Microphone Bias,$16.99,$16.99,https://a.co/d/bxWWpWF
+BH9VPC,N/A,1,~,,,BATTERY HOLDER 9V 1 CELL PC PIN,$3.45,$3.45,~
+64P44WE,N/A,1,~,,,BREADBRD PREPUNCHED INSULAT NPTH,$14.19,$14.19,https://www.digikey.ca/en/products/detail/vector-electronics/64P44WE/38933
+N/A,U20,1,SSD1306 ,SSD1306 ,,1.3 inch OLED display module with 128x64 resolution,$20.78,$20.78,https://www.amazon.ca/IZOKEE-Display-SSD1306-Raspberry-Yellow-Blue-IIC/dp/B076PNP2VD?th=1
+N/A,U15,1,CDM324,CDM324,,"24GHz Radar Induction Sensor, CDM324 Single Channel Microwave Sensor Module Non Contact Detection",$10.77,$10.77,https://www.amazon.ca/Induction-Microwave-Detection-Detecting-Operating/dp/B0CSSXWS8J/ref=sr_1_4?crid=94N29R
+N/A,U19,1,LM393,LM393,,Rain Drops Sensor Weather Moisture Monitor Sensor Humidity Sensitivity Module Nickeled Plate 3.3-5V for Arduino,$12.99,$12.99,https://www.amazon.ca/HiLetgo-Moisture-Humidity-Sensitivity-Nickeled/dp/B01DK29K28/ref=sr_1_3?dib=eyJ2IjoiMS

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "8x8 Matrix Display")(type "KiCad")(uri "C:/Users/jcarpio3/Documents/GitHub/CMPE2965-A01-Group-1-John-Russel-John-Luis/Hardware/Dynamic Speed Limit System Schematic/Display System Schematic/8x8 Matrix Display.kicad_sym")(options "")(descr ""))
+)

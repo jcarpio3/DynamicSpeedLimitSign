@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+body {
+  text-align: center;
+  margin: auto;
+  background: #292929; 
+  font-family: "Poppins"; 
+  color: white;
+
+}
+
+.main {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+
+}
+
+.weatherInfoDiv {
+  text-align: center;
+  width: 40%;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: rgb(14, 14, 14);
+  margin: auto;
+  margin-bottom: 10px;
+  display: block;
+
+}
+
+hr {
+  width: 80%;
+  background-color: white;
+  height: 2px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+input {
+  margin-left: 10px;
+  width: 100px;
+
+}
+
+/* .formDiv {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  padding: auto;
+
+} */
+
+.home{
+  margin: auto;
+
+}
+
+.create {
+  text-align: center;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+
+}
+
+.formLabel {
+  grid-column-start: 1;
+  grid-column-end:span 2;
+
+}
+
+.addEntryBtn {
+  height: 30px;
+  width: 100px;
+  grid-column-start: 1;
+  grid-column-end:span 2;
+  margin: auto;
+
+}
+
+.tempLabel {
+  text-align: right;
+  grid-column-start: 1;
+  grid-column-end:span 1;
+
+}
+
+.humLabel {
+  text-align: right;
+  grid-column-start: 1;
+  grid-column-end:span 1;
+
+}
+
+.dewLabel {
+  text-align: right;
+  grid-column-start: 1;
+  grid-column-end:span 1;
+
+}
+
+.rainLabel {
+  text-align: right;
+  grid-column-start: 1;
+  grid-column-end:span 1;
+
+}
+
+.speedLabel {
+  text-align: right;
+  grid-column-start: 1;
+  grid-column-end:span 1;
+
+}
